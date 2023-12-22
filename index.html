@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo</title>
+    <title>The Basic Language of the Web: HTML</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <h1>📘 The Code Magazine</h1>
+        <nav>
+            <a href="blog.html">Blog</a>
+            <a href="#">Challenges</a>
+            <a href="#">Flexbox</a>
+            <a href="#">CSS Grid</a>
+        </nav>
+
+        <p>Test Paragraph</p>
+    </header>
+
     <article>
-        <hader>
-            <h1>📘 The Code Magazine</h1>
+        <header>
+            <h2>The Basic Language of the Web:HTML</h2>
+        
+            <img width="50" height="50" src="img/people_photo.jpg" alt="image path error">
 
-            <nav>
-                <a href="blog.html">Blog</a>
-                <a href="#">Challenges</a>
-            </nav>
-        </hader>
-    
-        <img style="width: 50px; height: 50px;" src="img/people_photo.jpg" alt="image path error">
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2007</p>
+            <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2007</p>
 
-        <img style="width: 500px; height: 500px;" src="img/coding_image.jpg" alt="image path error">
-
+            <img width="500" height="500" src="img/coding_image.jpg" alt="image path error">
+        </header>
 
         <h3>What is HTML?</h3>
         <p>
@@ -37,7 +46,7 @@
         <a href="https://www.w3schools.com/html/">w3schools</a>
         </p>
 
-        <h3>Why shoiuld you learn HTML?</h3>
+        <h3>Why should you learn HTML?</h3>
         <p>There are countless reasons for learning the <em>fundamental</em> language of the web. here are 5 of them:</p>
 
         <ul>
@@ -52,21 +61,22 @@
 
     <aside>
         <h4>Related posts</h4>
-        <ul>
+        <ul class="related">
             <li>
                 <img width="50" height="50" src="img/people_photo.jpg" alt="image path error">
                 <a href="#">How to Learn web Development</a><br>
-                <p>By Jonas Schmedtmann</p>
+                <p class="related-author">By Jonas Schmedtmann</p>
             </li>
             <li>
                 <img width="50" height="50" src="img/coding_image.jpg" alt="image path error">
                 <a href="#">The Unknown Powers of CSS</a>
-                <p>By Jim Dillon</p>
+                <p class="related-author">By Jim Dillon</p>
             </li>
         </ul>
     </aside>
 
     <footer>
-        Copyright &copy; 2027 by The Code Magazine    </footer>
+        <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
 </body>
 </html>
