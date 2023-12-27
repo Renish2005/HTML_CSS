@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <header class="main-header">
+        <header class="main-header clearfix">
             <h1>📘 The Code Magazine</h1>
             <nav>
                 <a href="blog.html">Blog</a>
@@ -17,22 +17,26 @@
                 <a href="#">Flexbox</a>
                 <a href="#">CSS Grid</a>
             </nav>
+
+            <!-- <div class="clear"></div> -->
         </header>
 
         <article>
             <header class="post-header">
                 <h2>The Basic Language of the Web:HTML</h2>
             
-                <img width="50" height="50" src="img/people_photo.jpg" alt="image path error">
+                <img width="50" height="50" src="img/people_photo.jpg" alt="image path error" class="author-img">
 
-                <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2007</p>
+                <p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
                 <img  class="post-img" src="img/coding_image.jpg" alt="image path error">
+                 
+                <button>❤️Like</button>
             </header>
 
             <h3>What is HTML?</h3>
             <p>
-                HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language. Hypertext defines the link between web pages. A markup language is used to define the text document within the tag which defines the structure of web pages.
+                HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language. Hypertext defines the link between web pages. A markup language is used to define the text document within the tag which defines the structure of web pages.
             </p>
             <P>In HTML, each element is made up of 3 parts:</p>
             <Ol>
@@ -78,5 +82,6 @@
             <p id="copyright" class="copyright text">Copyright &copy; 2027 by The Code Magazine.</p>
         </footer>
     </div>
+
 </body>
 </html>
